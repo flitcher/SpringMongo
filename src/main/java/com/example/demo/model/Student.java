@@ -10,10 +10,10 @@ public class Student {
     private long id;
     private String name;
     private int age;
-    private float gpa;
+    private double gpa;
 
 
-    public Student(String name, int age, float gpa) {
+    public Student(String name, int age, double gpa) {
         this.name = name;
         this.age = age;
         this.gpa = gpa;
@@ -46,11 +46,11 @@ public class Student {
         this.age = age;
     }
 
-    public float getGpa() {
+    public double getGpa() {
         return gpa;
     }
 
-    public void setGpa(float gpa) {
+    public void setGpa(double gpa) {
         this.gpa = gpa;
     }
 }
